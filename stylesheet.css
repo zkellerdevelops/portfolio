@@ -119,8 +119,6 @@ h4{
   font-weight: normal;
   font-size: 65px;
   color: #4f5256;
-
-
 }
 
 
@@ -225,10 +223,8 @@ body {
    padding-bottom: 80px;
    /*background-image: url("images/contentbg.png");*/
    background-repeat: no-repeat;
-
    /*padding-bottom:80px;   /* Height of the footer element */
    /*padding-top: 50px;*/
-
 }
 
 /*.welcome {
@@ -253,8 +249,6 @@ body {
    float: left;
    background-image: url("images/transparent.png");
    background-repeat: repeat;
-
-
 }
 
 .story_right {
@@ -268,8 +262,32 @@ body {
 
 }
 
+#portfolio_fancybox {
+   width: 1100px;
+   margin: 0 auto;
+   padding: 25px 0px 75px 0px;
+}
 
+#contact {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 25px 0px 75px 0px;
+}
 
+input {
+  width: 450px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+input[type=text] {
+  font-family: "RobotoThin",sans-serif;
+  font-style: normal;
+  letter-spacing: 0px;
+  font-weight: normal;
+  font-size: 25px;
+  color: #4f5256;
+}
 
 /* SLIDER STYLES START HERE */
 
@@ -385,10 +403,6 @@ body {
    padding-right: 10px;
    padding-bottom: 20px;
    position: relative;
-
-
-   /*padding-top: 11%;
-   padding-right: 5%;*/
    float: right;
    z-index:101;
 }
@@ -427,25 +441,7 @@ body {
    background-position:0 -12px;
 }
 
-
-
 /* END SLIDER STYLES */
-
-
-
-
-
-
-
-
-
-
-/*.main_article {
-   border: 2px;
-   border color: black;
-   padding:50px 75px 5px 75px;
-   width: 1100px;
-}*/
 
 
 .footer {
@@ -468,7 +464,6 @@ body {
    clear: both;
 }
 
-
 .clearfix:after {
    content: ".";
    visibility: hidden;
@@ -482,9 +477,6 @@ body {
 }
 
 .social {
-   /*display:block;*/
-   /*position:absolute;*/
-   /*padding-left: 72%;*/
    margin: 0 auto;
    width: 225px;
    height: 40px;
@@ -492,4 +484,3 @@ body {
    padding-left: 880px;
    z-index: 2000;
 }
-

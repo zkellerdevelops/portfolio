@@ -2,7 +2,6 @@
 <html lang="en">
 
 	<head>
-
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
 
 		<meta charset="utf-8">
@@ -12,8 +11,17 @@
 		<title>Zach | Keller</title>
 
 		<link href="stylesheet.css" type="text/css" rel="stylesheet"/>
-
 		<script src="js/jquery-1.9.1.min.js"></script>
+
+		<!-- Fancy box Plugin -->
+		<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+		<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+		<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
 
 		<script type="text/javascript">
 			$(document).ready(function() {
@@ -23,15 +31,13 @@
 	                $(this).find('img').stop().fadeTo( 'fast', .2 );
 
 	          	  }, function() {
-	          	    $(this).find('img').stop().fadeTo( 'slow', 1 );  
-
+	          	    $(this).find('img').stop().fadeTo( 'slow', 1 );
 				}); //End of hover
 
-
-
+				//start Fancybox
+				$(".fancybox").fancybox();
+					 //end Fancybox
 			});  //end document ready
-
-
 		</script>
 
 
@@ -50,30 +56,17 @@
 				});
             });
         </script>
-
-
 	</head>
 
 	<!-- Body Content Starts Here -->
 
 	<body>
-
-		
 		<div class="wrapper">
-
-		
-			<!--<div id="nav">
-  				<p><a href="#Home" alt="home"> Home &nbsp; </a><a href="#About" alt="about">About &nbsp; </a><a href="#Contact" alt="contact">Contact &nbsp; </a><a href="#Portfolio" alt="portfolio">Portfolio &nbsp; </a></p>
-			</div>-->
-
-		
-
 			<div class="header clearfix">
 
 				<div class="nav">
-  					<p><a href="#Home" alt="home"> Home &nbsp; </a><a href="#About" alt="about">About &nbsp; </a><a href="#Contact" alt="contact">Contact &nbsp; </a><a href="#Portfolio" alt="portfolio">Portfolio &nbsp; </a></p>
-				</div>	
-
+  					<p><a href="#Home" alt="home"> Home &nbsp; </a><a href="#Portfolio" alt="portfolio">Portfolio &nbsp; </a><a href="#Contact" alt="contact">Say hello &nbsp; </a></p>
+				</div>
 
 				<div class="social">
 					<a href="http://gplus.to/zachkeller" target="_blank" id="gplus"><img src="images/gplus.png" alt="Google Plus"></a>
@@ -89,116 +82,87 @@
 			<!-- SLIDER markup STARTS here -->
 
 			<div id="container">
-
-				<!--<div id="welcome">
-					<p><h4>Hello.</h4><h2>I'm a visual + web designer with 9 years experience in the graphic design industry.
-					I'm based in music city, usa and would love to chat with you.</h2></p>
-				</div>-->
-
-
 				<div id="slides">
-
-
-					<!--<div id="slideframe">
-						<img src="images/slide/slideframe.png" alt="Example Frame" id="frame">
-					</div>  -->
-					
-					
-
 					<div class="slides_container">
-						
+
                     		<a href="#" title="The 1st slide" target="_blank"><img src="images/slide/slide1.jpg" width="1100" height="300" alt="Slide 1"></a>
 
                     		<a href="#" title="The 2nd slide" target="_blank"><img src="images/slide/slide2.jpg" width="1100" height="300" alt="Slide 2"></a>
 
                     		<a href="#" title="The 3rd slide" target="_blank"><img src="images/slide/slide3.jpg" width="1100" height="300" alt="Slide 3"></a>
-
-                    		<!--<a href="#" title="The 4th slide" target="_blank"><img src="images/slide/slide4.jpg" width="1100" height="300" alt="Slide 4"></a>-->
-
 					</div>
-					
-					
 					<a href="#" class="next"><img src="images/slide/arrow-next.png" width="35" height="43" alt="Arrow Next"></a>
 					<a href="#" class="prev"><img src="images/slide/arrow-prev.png" width="35" height="43" alt="Arrow Prev"></a>
-
-
-
-				
 				</div>
-
 			</div>
-
 
 			<!-- SLIDER markup ENDS here -->
 
-			
-
 			<div class="content">
-
 				<img src="images/divider.png">
-
 				<div class="story_left">
-				
-
 					<p><h1>I'm in Music City, USA...</h1></p>
 					<p><h2>and I would love to chat with you.</h2></p>
-					<!--<hr noshade size=1>-->
 					<img src="images/divider_small.png">
-
 					<p>Lorem ipsum dolor sit amet, nec dolor vocibus appellantur ut, qui eu laudem labores consectetuer. Vis legimus dissentias at. Augue nostro admodum ad mei, ei debitis adolescens vix. Ius cu legendos ocurreret. Pri ut aliquid senserit, ex mei assum affert postea. Vis graece petentium an, te cibo feugait ancillae mea.</p>
 
 					<p>Movet legimus et mei. Sale labores vim ad, case adhuc viderer vel ei, graeco nusquam usu te. Pri adhuc molestiae ne. Numquam consequat vim ut.</p>
 
 					<p>Putent detracto liberavisse no pri, at oporteat iudicabit accusamus usu. Pro ea eripuit nominavi, ne has doming audiam facilisis, vel an consulatu definitionem. Ei his omnes semper vituperatoribus, eu illud putant apeirian has. Eam ornatus rationibus ne. Id utinam voluptatibus delicatissimi cum.</p>
-
-					
-				
 				</div>
-			
 
 				<div class="story_right">
-
-				
 					<p><h1>What can I do for you?</h1></p>
 					<p><h2>Some more subhead copy here.</h2></p>
-					<!--<hr noshade size=1>-->
 					<img src="images/divider_small.png">
-
 					<p>Lorem ipsum dolor sit amet, nec dolor vocibus appellantur ut, qui eu laudem labores consectetuer. Vis legimus dissentias at. Augue nostro admodum ad mei, ei debitis adolescens vix. Ius cu legendos ocurreret. Pri ut aliquid senserit, ex mei assum affert postea. Vis graece petentium an, te cibo feugait ancillae mea.</p>
 
 					<p>Movet legimus et mei. Sale labores vim ad, case adhuc viderer vel ei, graeco nusquam usu te. Pri adhuc molestiae ne. Numquam consequat vim ut.</p>
 
 					<p>Putent detracto liberavisse no pri, at oporteat iudicabit accusamus usu. Pro ea eripuit nominavi, ne has doming audiam facilisis, vel an consulatu definitionem. Ei his omnes semper vituperatoribus, eu illud putant apeirian has. Eam ornatus rationibus ne. Id utinam voluptatibus delicatissimi cum.</p>
-
-					
-
 				</div>
-
 				<img src="images/divider.png">
-
 			</div>
 
+			<div class="content">
+				<div id="portfolio_fancybox">
+					<p><h1>Portfolio</h1></p>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/1_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/1_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/2_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/2_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/3_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/3_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/4_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/4_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/5_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/5_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/1_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/1_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/2_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/2_s.jpg" alt="" /></a>
 
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/1_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/1_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/2_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/2_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/3_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/3_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/4_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/4_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/5_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/5_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/1_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/1_s.jpg" alt="" /></a>
+					<a class="fancybox" rel="group" href="fancybox/demo_imgs/2_b.jpg" title="Test title here"><img src="fancybox/demo_imgs/2_s.jpg" alt="" /></a>
+				</div>
+				<img src="images/divider.png">
+			</div>
 
-
-
+			<div class="content">
+				<div class="contact">
+					<p><h1>Say hello.</h1></p>
+					<form>
+						<h2>Your Name:</h2>
+						<input type='name' name='username' id='name' placeholder="What's your name?" />
+						<h2>Your Email:</h2>
+						<input type='email' name='email' id='email'  />
+						<h2>Your Message:</h2>
+						<input type='text' name='message' id='message'  /><br>
+						<button type='submit' id='submit'>Send</button>
+					</form>
+				</div>
+			</div>
 
 			<div class="footer clearfooter">
-
-				<!--<div class="footcontent">
-					<img src="images/footlogo.png" style="padding-left: 75px; padding-top: 15px; padding-bottom:100px; float: left">
-					<h3 style="padding-top:35px; float: left">All work copyright Zach Keller, 2013 ©</h3>
-				</div>-->
-
 			</div>
 		</div>
-
-
-
-
-
-
-
-
 	</body>
 </html>
