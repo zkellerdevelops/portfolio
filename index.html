@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+
+		<meta charset="utf-8">
+		<meta name="author" content="Zach Keller">
+		<meta name="description" content="This portfolio site of Zach Keller">
+
+		<title>Zach | Keller</title>
+
+		<link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+
+		<script src="js/jquery-1.9.1.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				   //Start of hover opacity effect
+				$('.social a, .prev, .next').hover(function() {
+	                $(this).find('img').stop().fadeTo( 'fast', .2 );
+
+	          	  }, function() {
+	          	    $(this).find('img').stop().fadeTo( 'slow', 1 );  
+
+				}); //End of hover
+
+
+
+			});  //end document ready
+
+
+		</script>
+
+
+		<script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+		<script src="js/slides.min.jquery.js"></script>
+
+        <script>
+        	//SlideJS script
+            $(function(){
+                $('#slides').slides({
+					preload: true,
+					preloadImage: 'images/slide/loading.gif',
+					play: 10000,
+					pause: 2500,
+					hoverPause: true
+				});
+            });
+        </script>
+
+
+	</head>
+
+	<!-- Body Content Starts Here -->
+
+	<body>
+
+		
+		<div class="wrapper">
+
+		
+			<!--<div id="nav">
+  				<p><a href="#Home" alt="home"> Home &nbsp; </a><a href="#About" alt="about">About &nbsp; </a><a href="#Contact" alt="contact">Contact &nbsp; </a><a href="#Portfolio" alt="portfolio">Portfolio &nbsp; </a></p>
+			</div>-->
+
+		
+
+			<div class="header clearfix">
+
+				<div class="nav">
+  					<p><a href="#Home" alt="home"> Home &nbsp; </a><a href="#About" alt="about">About &nbsp; </a><a href="#Contact" alt="contact">Contact &nbsp; </a><a href="#Portfolio" alt="portfolio">Portfolio &nbsp; </a></p>
+				</div>	
+
+
+				<div class="social">
+					<a href="http://gplus.to/zachkeller" target="_blank" id="gplus"><img src="images/gplus.png" alt="Google Plus"></a>
+					<a href="http://www.twitter.com/zlkeller" target="_blank" id="twitter"><img src="images/twitter.png" alt="Twitter"></a>
+					<a href="http://instagram.com/eloist" target="_blank" id="instagram"><img src="images/instagram.png" alt="Instagram"></a>
+					<a href="http://www.linkedin.com/in/zkellerdevelops/" target="_blank" id="linkedin"><img src="images/linkedin.png" alt="Linked In"></a>
+					<a href="http://www.github.com/zkellerdevelops/" target="_blank" id="github"><img src="images/github.png" alt="Github"></a>
+				</div>
+				<!-- <img src="images/header_1.jpg"> -->
+
+			</div>
+
+			<!-- SLIDER markup STARTS here -->
+
+			<div id="container">
+
+				<!--<div id="welcome">
+					<p><h4>Hello.</h4><h2>I'm a visual + web designer with 9 years experience in the graphic design industry.
+					I'm based in music city, usa and would love to chat with you.</h2></p>
+				</div>-->
+
+
+				<div id="slides">
+
+
+					<!--<div id="slideframe">
+						<img src="images/slide/slideframe.png" alt="Example Frame" id="frame">
+					</div>  -->
+					
+					
+
+					<div class="slides_container">
+						
+                    		<a href="#" title="The 1st slide" target="_blank"><img src="images/slide/slide1.jpg" width="1100" height="300" alt="Slide 1"></a>
+
+                    		<a href="#" title="The 2nd slide" target="_blank"><img src="images/slide/slide2.jpg" width="1100" height="300" alt="Slide 2"></a>
+
+                    		<a href="#" title="The 3rd slide" target="_blank"><img src="images/slide/slide3.jpg" width="1100" height="300" alt="Slide 3"></a>
+
+                    		<!--<a href="#" title="The 4th slide" target="_blank"><img src="images/slide/slide4.jpg" width="1100" height="300" alt="Slide 4"></a>-->
+
+					</div>
+					
+					
+					<a href="#" class="next"><img src="images/slide/arrow-next.png" width="35" height="43" alt="Arrow Next"></a>
+					<a href="#" class="prev"><img src="images/slide/arrow-prev.png" width="35" height="43" alt="Arrow Prev"></a>
+
+
+
+				
+				</div>
+
+			</div>
+
+
+			<!-- SLIDER markup ENDS here -->
+
+			
+
+			<div class="content">
+
+				<img src="images/divider.png">
+
+				<div class="story_left">
+				
+
+					<p><h1>I'm in Music City, USA...</h1></p>
+					<p><h2>and I would love to chat with you.</h2></p>
+					<!--<hr noshade size=1>-->
+					<img src="images/divider_small.png">
+
+					<p>Lorem ipsum dolor sit amet, nec dolor vocibus appellantur ut, qui eu laudem labores consectetuer. Vis legimus dissentias at. Augue nostro admodum ad mei, ei debitis adolescens vix. Ius cu legendos ocurreret. Pri ut aliquid senserit, ex mei assum affert postea. Vis graece petentium an, te cibo feugait ancillae mea.</p>
+
+					<p>Movet legimus et mei. Sale labores vim ad, case adhuc viderer vel ei, graeco nusquam usu te. Pri adhuc molestiae ne. Numquam consequat vim ut.</p>
+
+					<p>Putent detracto liberavisse no pri, at oporteat iudicabit accusamus usu. Pro ea eripuit nominavi, ne has doming audiam facilisis, vel an consulatu definitionem. Ei his omnes semper vituperatoribus, eu illud putant apeirian has. Eam ornatus rationibus ne. Id utinam voluptatibus delicatissimi cum.</p>
+
+					
+				
+				</div>
+			
+
+				<div class="story_right">
+
+				
+					<p><h1>What can I do for you?</h1></p>
+					<p><h2>Some more subhead copy here.</h2></p>
+					<!--<hr noshade size=1>-->
+					<img src="images/divider_small.png">
+
+					<p>Lorem ipsum dolor sit amet, nec dolor vocibus appellantur ut, qui eu laudem labores consectetuer. Vis legimus dissentias at. Augue nostro admodum ad mei, ei debitis adolescens vix. Ius cu legendos ocurreret. Pri ut aliquid senserit, ex mei assum affert postea. Vis graece petentium an, te cibo feugait ancillae mea.</p>
+
+					<p>Movet legimus et mei. Sale labores vim ad, case adhuc viderer vel ei, graeco nusquam usu te. Pri adhuc molestiae ne. Numquam consequat vim ut.</p>
+
+					<p>Putent detracto liberavisse no pri, at oporteat iudicabit accusamus usu. Pro ea eripuit nominavi, ne has doming audiam facilisis, vel an consulatu definitionem. Ei his omnes semper vituperatoribus, eu illud putant apeirian has. Eam ornatus rationibus ne. Id utinam voluptatibus delicatissimi cum.</p>
+
+					
+
+				</div>
+
+				<img src="images/divider.png">
+
+			</div>
+
+
+
+
+
+
+			<div class="footer clearfooter">
+
+				<!--<div class="footcontent">
+					<img src="images/footlogo.png" style="padding-left: 75px; padding-top: 15px; padding-bottom:100px; float: left">
+					<h3 style="padding-top:35px; float: left">All work copyright Zach Keller, 2013 ©</h3>
+				</div>-->
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+	</body>
+</html>
