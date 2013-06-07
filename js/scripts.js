@@ -33,7 +33,7 @@ $(document).ready(function() {
 
   $("#portfoliobutton").click(function(){
     $('html, body').animate({
-      scrollTop: $("#portfolio").offset().top
+      scrollTop: $("#portfolio").offset().top -150
     }, 1500);
     return false;
   });

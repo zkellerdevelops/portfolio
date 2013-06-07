@@ -209,25 +209,16 @@ body {
    padding-bottom: 0px;
    border-color: #403c3c;
    position: fixed;
+   z-index: 9999;
 }
 
 
 .content {
-   /*background-color: #f3f3f3;*/
    width: 1125px;
-   /*padding-top:25px;*/
    margin: 0 auto;
    padding-bottom: 30px;
-   /*background-image: url("images/contentbg.png");*/
    background-repeat: no-repeat;
-   /*padding-bottom:80px;   /* Height of the footer element */
-   /*padding-top: 50px;*/
 }
-
-/*.welcome {
-  width: 1120px;
-  float: left;
-}*/
 
 .story {
    width: 510px;
@@ -235,7 +226,6 @@ body {
    margin-left: auto;
    padding: 25px 15px 75px 15px;
    float: left;
-
 }
 
 .story_left {
@@ -244,8 +234,6 @@ body {
    margin-left: auto;
    padding: 25px 20px 75px 20px;
    float: left;
-/*   background-image: url("images/transparent.png");
-   background-repeat: repeat;*/
 }
 
 .story_right {
@@ -254,8 +242,6 @@ body {
    margin-left: auto;
    padding: 25px 20px 75px 20px;
    float: right;
-/*   background-image: url("images/transparent.png");
-   background-repeat: repeat;*/
 }
 
 #portfolio_fancybox {
@@ -265,9 +251,6 @@ body {
 }
 
 a.fancybox {
-/*  border-style: solid;
-  border-width: 5px;
-  border-color: #fff;*/
   padding: 2px;
 }
 
@@ -343,6 +326,7 @@ input[type=email] {
    margin-left: auto;
    padding-top: 125px;
    /*float: left;*/
+   overflow:hidden;
 }
 
 
@@ -359,7 +343,7 @@ input[type=email] {
    padding-top: 0px;*/
    margin-right: auto;
    margin-left: auto;
-  /* overflow:hidden;*/
+   overflow:hidden;
 /*   position:relative;*/
    display:none;
 }
@@ -386,45 +370,30 @@ input[type=email] {
 .slides_container a img {
    display:block;
    top: 500px;
+   overflow:hidden;
 }
 
 .slideframe {
-   /*padding-left: 50px;*/
    margin-top: 250px;
-   /*margin-right: auto;
-   margin-left: auto;*/
    position: relative;
-
 }
 
 /*
    Next/prev buttons
 */
 
-#slides .next,#slides .prev {
-   /*position:absolute;*/
-   /*top:125px;
-   left:-23px;
-   width:24px;
-   height:43px;*/
-   /*padding-left: 50px;
-   padding-right: 50px;*/
+#slides .prev {
    position: relative;
-
-
-   /*padding-left: 5%;*/
-   padding-top: 30px;
+   padding-top: 5px;
    padding-left: 10px;
    padding-bottom: 20px;
    display:block;
-
    float: left;
    z-index:101;
 }
 
 #slides .next {
-   /*left:1119px;*/
-   padding-top: 30px;
+   padding-top: 5px;
    padding-right: 10px;
    padding-bottom: 20px;
    position: relative;
@@ -456,7 +425,7 @@ input[type=email] {
    width:12px;
    height:0;
    padding-top:12px;
-   background-image:url('/images/slide/pagination.png');
+   background-image:url(images/slide/pagination.png);
    background-position:0 0;
    float:left;
    overflow:hidden;
