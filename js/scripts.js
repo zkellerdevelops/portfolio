@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+    //body fade in
+  $("body").css("display", "none");
+    $("body").fadeIn(1000);
+
  //Start of hover opacity effect
   $('.social a, .prev, .next').hover(function() {
     $(this).find('img').stop().fadeTo( 'fast', .2 );
