@@ -80,19 +80,19 @@
 h1 {
 	font-family: "RobotoThin",sans-serif;
   font-style: normal;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   font-weight: normal;
-  font-size: 45px;
-	color: #4f5256;
+  font-size: 25px;
+	color: #333333;
   line-height: 10px;
 }
 
 
 h2 {
 	font-family: 'RobotoThin', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
   font-weight: normal;
-	color: #999;
+	color: #333333;
   line-height: 15px;
 }
 
@@ -100,14 +100,14 @@ h3 {
    font-family: 'Open Sans Condensed', sans-serif;
    font-size: 10pt;
    font-weight: 300;
-   color: #f3f0f0;
+   color: #333333;
    text-align: justify;
 }
 
 
 h4{
   font-family: 'RobotoThin', sans-serif;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: normal;
   color: #999;
   padding-top: 0px;
@@ -137,7 +137,7 @@ a:active {color:#ff33cc;}  /* selected link */
 p {
 	font-family: 'RobotoThin', sans-serif;
 	font-size: 11pt;
-	color: #666666;
+	color: #333333;
 	text-align: justify;
   line-height: 25px;
 }
@@ -178,20 +178,11 @@ body {
 }
 
 .nav {
-   margin: 0 auto;
- /*  float: left;*/
-   padding-top: 55px;
-   padding-right: 750px;
-   width: 320px;
-   height: 35px;
-   z-index: 9000;
+  display: none;
 }
 
 .footernav {
-   margin: 0 auto;
-   float: right;
-   height: 35px;
-   z-index: 9000;
+  display: none;
 }
 
 .footernav a {
@@ -229,28 +220,29 @@ body {
    margin-top: -28px;
    padding-left: 970px;
    z-index: 8500;
+   display: none;
 }
 
 
 .header {
-   background-image: url("images/header_2.png");
+   background-image: url("images/header_smartphone.png");
    background-repeat: no-repeat;
    background-color: #f1f1f1;
    background-position: center;
    margin-right: auto;
    margin-left: auto;
-   height: 100px;
+   height: 75px;
    width: 100%;
    border-bottom: 5px solid;
    padding-bottom: 0px;
    border-color: #403c3c;
-   position: fixed;
-   z-index: 9999;
+   /*position: fixed;*/
+  /* z-index: 9999;*/
 }
 
 
 .content {
-   width: 1125px;
+   width: 100%;
    margin: 0 auto;
   /* padding-bottom: 30px;*/
    background-repeat: no-repeat;
@@ -261,19 +253,20 @@ body {
 }*/
 
 .story {
-   width: 510px;
+   width: 300px;
    margin-right: auto;
    margin-left: auto;
-   padding: 25px 15px 75px 15px;
-   float: left;
+   /*padding: 25px 15px 75px 15px;*/
+   /*float: left;*/
 }
 
 .story_left {
-   width: 500px;
-   margin-right: auto;
-   margin-left: auto;
-   padding: 25px 20px 75px 20px;
-   float: left;
+   width: 300px;
+  /* margin-right: auto;*/
+   margin-left: 15px;
+   /*padding: 25px 20px 75px 20px;*/
+   /*float: left;*/
+   margin-top: 50px;
    background: rgba(255, 255, 255, .6);
 }
 
@@ -296,18 +289,19 @@ body {
 }
 
 .story_right {
-   width: 500px;
-   margin-right: auto;
-   margin-left: auto;
-   padding: 25px 20px 75px 20px;
-   float: right;
+   width: 300px;
+   /*margin-right: auto;
+   margin-left: auto;*/
+   margin-left: 15px;
+  /* padding: 25px 20px 75px 20px;*/
+  /* float: right;*/
    background: rgba(255, 255, 255, .6);
 }
 
 #portfolio_fancybox {
-   width: 1100px;
-   margin: 0 auto;
-   padding: 25px 0px 75px 0px;
+   width: 100%;
+   margin-left: 10px;
+/*   padding: 25px 0px 75px 0px;*/
 }
 
 a.fancybox {
@@ -316,21 +310,31 @@ a.fancybox {
 
 
 #contact {
-  width: 1100px;
+  width: 100%;
   margin: 0 auto;
   padding: 25px 0px 150px 0px;
 }
 
+.contact h1{
+  margin-left: 50px;
+}
+
+form h2 {
+  margin-left: 50px;
+}
+
 input {
-  width: 450px;
+ /* width: 400px;*/
   height: 30px;
-  margin-bottom: 15px;
+/*  margin-bottom: 15px;*/
+  margin: 0 auto;
 }
 
 #message {
-  width: 450px;
+ /* width: 400px;*/
   height: 150px;
   margin-bottom: 15px;
+  width: 250px;
 }
 
 input[type=text] {
@@ -340,6 +344,8 @@ input[type=text] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
+  margin-left: 50px;
+  width: 250px;
 }
 
 input[type=name] {
@@ -349,6 +355,8 @@ input[type=name] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
+  margin-left: 50px;
+  width: 250px;
 }
 
 input[type=email] {
@@ -358,6 +366,8 @@ input[type=email] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
+  margin-left: 50px;
+  width: 250px;
 }
 
 button {
@@ -371,6 +381,7 @@ button {
   font-size: 18px;
   font-weight: normal;
   color: #404040;
+  margin-left: 50px;
  /* line-height: 15px;*/
 }
 
@@ -421,7 +432,8 @@ button:active {
    margin-left: auto;
    padding-top: 125px;
    /*float: left;*/
-   overflow:hidden;
+   overflow: hidden;
+   display: none;
 }
 
 
@@ -539,7 +551,7 @@ button:active {
 .footer {
    width: 100%;
    background: #474849;
-   margin-bottom: 300px;
+   margin-bottom: 150px;
    margin-right: auto;
    margin-left: auto;
    /*position: relative;*/
@@ -548,11 +560,11 @@ button:active {
 .footcontent {
    /*margin-right: auto;*/
    margin: 0 auto;
-   padding-left: 500px;
+   /*padding-left: 500px;*/
 }
 
 .clearfooter {
-   height: 300px;
+   height: 150px;
    clear: both;
 }
 
