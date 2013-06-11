@@ -240,6 +240,10 @@ body {
   /* z-index: 9999;*/
 }
 
+#tablet_hero {
+  display: none;
+}
+
 
 .content {
    width: 100%;

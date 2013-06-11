@@ -248,6 +248,9 @@ body {
    z-index: 9999;
 }
 
+#tablet_hero {
+  display: none;
+}
 
 .content {
    width: 1125px;
@@ -297,10 +300,9 @@ body {
 
 .story_right {
    width: 500px;
-   margin-right: auto;
-   margin-left: auto;
+   margin-left: 40px;
    padding: 25px 20px 75px 20px;
-   float: right;
+   float: left;
    background: rgba(255, 255, 255, .6);
 }
 

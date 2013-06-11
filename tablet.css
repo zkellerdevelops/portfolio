@@ -178,13 +178,7 @@ body {
 }
 
 .nav {
-   margin: 0 auto;
- /*  float: left;*/
-   padding-top: 55px;
-   padding-right: 750px;
-   width: 320px;
-   height: 35px;
-   z-index: 9000;
+  display: none;
 }
 
 .footernav {
@@ -249,9 +243,22 @@ body {
   /* z-index: 9999;*/
 }
 
+.tablet_hero {
+  width: 500px;
+  height: 136px;
+  margin-top: 150px;
+}
+
 
 .content {
    width: 768px;
+   margin: 0 auto;
+  /* padding-bottom: 30px;*/
+   background-repeat: no-repeat;
+}
+
+#portfolio {
+   width: 600px;
    margin: 0 auto;
   /* padding-bottom: 30px;*/
    background-repeat: no-repeat;
@@ -262,7 +269,7 @@ body {
 }*/
 
 .story {
-   width: 768px;
+   width: 600px;
    margin-right: auto;
    margin-left: auto;
    /*padding: 25px 15px 75px 15px;*/
@@ -270,11 +277,12 @@ body {
 }
 
 .story_left {
-   width: 700px;
+   width: 500px;
    /*margin-right: auto;
    margin-left: auto;*/
-   /*padding: 25px 20px 75px 20px;*/
+   padding: 25px 20px 25px 20px;
    /*float: left;*/
+   margin-left: 25px;
    margin-top: 150px;
    background: rgba(255, 255, 255, .6);
 }
@@ -298,10 +306,11 @@ body {
 }
 
 .story_right {
-   width: 700px;
+   width: 500px;
    /*margin-right: auto;
    margin-left: auto;*/
-   padding: 25px 20px 75px 20px;
+   margin-left: 25px;
+   padding: 25px 20px 25px 20px;
   /* float: right;*/
    background: rgba(255, 255, 255, .6);
 }
@@ -323,6 +332,14 @@ a.fancybox {
   padding: 25px 0px 150px 0px;
 }
 
+.contact h1{
+  margin-left: 50px;
+}
+
+form h2 {
+  margin-left: 50px;
+}
+
 input {
  /* width: 400px;*/
   height: 30px;
@@ -334,6 +351,7 @@ input {
  /* width: 400px;*/
   height: 150px;
   margin-bottom: 15px;
+  width: 450px;
 }
 
 input[type=text] {
@@ -343,7 +361,8 @@ input[type=text] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
-  margin-left: 10px;
+  margin-left: 50px;
+  width: 450px;
 }
 
 input[type=name] {
@@ -353,7 +372,8 @@ input[type=name] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
-  margin-left: 10px;
+  margin-left: 50px;
+  width: 450px;
 }
 
 input[type=email] {
@@ -363,7 +383,8 @@ input[type=email] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
-  margin-left: 10px;
+  margin-left: 50px;
+  width: 450px;
 }
 
 button {
@@ -377,7 +398,7 @@ button {
   font-size: 18px;
   font-weight: normal;
   color: #404040;
- /* line-height: 15px;*/
+  margin-left: 50px;
 }
 
 button:hover {
