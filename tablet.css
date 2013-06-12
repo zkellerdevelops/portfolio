@@ -158,6 +158,9 @@ body {
    height:100%;
 }
 
+.divider {
+  width: 100%;
+}
 
 .wrapper {
    min-height:100%;
@@ -168,6 +171,7 @@ body {
    margin-left: auto;
    margin-top: 0px;
    margin-bottom: -300px;
+   overflow-x: hidden;
 }
 
 .navtop {
@@ -182,10 +186,7 @@ body {
 }
 
 .footernav {
-   margin: 0 auto;
-   float: right;
-   height: 35px;
-   z-index: 9000;
+  display: none;
 }
 
 .footernav a {
@@ -213,7 +214,7 @@ body {
 #footerlogo {
   width: 400px;
   height: 150px;
-  float: left;
+  padding-left: 5%;
 }
 
 .social {
@@ -239,26 +240,38 @@ body {
    border-bottom: 5px solid;
    padding-bottom: 0px;
    border-color: #403c3c;
+   position: relative;
    /*position: fixed;*/
   /* z-index: 9999;*/
 }
 
-.tablet_hero {
-  width: 500px;
-  height: 136px;
-  margin-top: 150px;
+#tablet_hero {
+ /* background-image: url("images/hero_tablet.jpg");*/
+  display: block;
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 25px;
+  -moz-box-shadow: 0px 3px 8px -1px #888888;
+  -webkit-box-shadow: 0px 3px 8px -1px #888888;
+  box-shadow: 0px 3px 8px -1px #888888;
+  background-color: #fff;
 }
 
+#tablet_hero img {
+  max-width: 100%;
+}
 
 .content {
-   width: 768px;
+   width: 100%;
    margin: 0 auto;
   /* padding-bottom: 30px;*/
    background-repeat: no-repeat;
 }
 
 #portfolio {
-   width: 600px;
+   width: 80%;
    margin: 0 auto;
   /* padding-bottom: 30px;*/
    background-repeat: no-repeat;
@@ -272,18 +285,13 @@ body {
    width: 600px;
    margin-right: auto;
    margin-left: auto;
-   /*padding: 25px 15px 75px 15px;*/
-   /*float: left;*/
 }
 
 .story_left {
-   width: 500px;
-   /*margin-right: auto;
-   margin-left: auto;*/
-   padding: 25px 20px 25px 20px;
-   /*float: left;*/
-   margin-left: 25px;
-   margin-top: 150px;
+   width: 80%;
+   padding-left: 10%;
+   padding-right: 10%;
+   margin: 0 auto;
    background: rgba(255, 255, 255, .6);
 }
 
@@ -306,18 +314,19 @@ body {
 }
 
 .story_right {
-   width: 500px;
-   /*margin-right: auto;
-   margin-left: auto;*/
-   margin-left: 25px;
-   padding: 25px 20px 25px 20px;
-  /* float: right;*/
+   width: 80%;
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-top: 10%;
+   margin: 0 auto;
    background: rgba(255, 255, 255, .6);
 }
 
 #portfolio_fancybox {
-   width: 100%;
-   margin-left: 15px;
+   width: 80%;
+   padding-left: 10%;
+   padding-right: 10%;
+   margin: 0 auto;
 /*   padding: 25px 0px 75px 0px;*/
 }
 
@@ -336,8 +345,15 @@ a.fancybox {
   margin-left: 50px;
 }
 
+form {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 0 auto;
+}
+
 form h2 {
-  margin-left: 50px;
+  float: left;
 }
 
 input {
@@ -351,7 +367,9 @@ input {
  /* width: 400px;*/
   height: 150px;
   margin-bottom: 15px;
-  width: 450px;
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 input[type=text] {
@@ -361,8 +379,10 @@ input[type=text] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
-  margin-left: 50px;
-  width: 450px;
+  margin: 0 auto;
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 input[type=name] {
@@ -372,8 +392,10 @@ input[type=name] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
-  margin-left: 50px;
-  width: 450px;
+  margin: 0 auto;
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 input[type=email] {
@@ -383,8 +405,10 @@ input[type=email] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
-  margin-left: 50px;
-  width: 450px;
+  margin: 0 auto;
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 button {
@@ -398,7 +422,7 @@ button {
   font-size: 18px;
   font-weight: normal;
   color: #404040;
-  margin-left: 50px;
+  float: left;
 }
 
 button:hover {
@@ -567,7 +591,7 @@ button:active {
 .footer {
    width: 100%;
    background: #474849;
-   margin-bottom: 300px;
+   margin-bottom: 0;
    margin-right: auto;
    margin-left: auto;
    /*position: relative;*/

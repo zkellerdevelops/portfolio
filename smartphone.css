@@ -158,6 +158,9 @@ body {
    height:100%;
 }
 
+.divider {
+  width: 100%;
+}
 
 .wrapper {
    min-height:100%;
@@ -168,6 +171,7 @@ body {
    margin-left: auto;
    margin-top: 0px;
    margin-bottom: -300px;
+   overflow-x: hidden;
 }
 
 .navtop {
@@ -210,6 +214,7 @@ body {
 #footerlogo {
   width: 400px;
   height: 150px;
+  padding-left: 5%;
   float: left;
 }
 
@@ -231,24 +236,34 @@ body {
    background-position: center;
    margin-right: auto;
    margin-left: auto;
-   height: 75px;
+   height: 40px;
    width: 100%;
    border-bottom: 5px solid;
    padding-bottom: 0px;
    border-color: #403c3c;
-   /*position: fixed;*/
+   position: relative;
   /* z-index: 9999;*/
 }
 
 #tablet_hero {
-  display: none;
+  display: block;
+  padding: 1%;
+  margin-top: 10px;
+ /* margin-top: 80px;*/
+  -moz-box-shadow: 0px 3px 8px -1px #888888;
+  -webkit-box-shadow: 0px 3px 8px -1px #888888;
+  box-shadow: 0px 3px 8px -1px #888888;
+  background-color: #fff;
+}
+
+#tablet_hero img {
+  max-width: 100%;
 }
 
 
 .content {
    width: 100%;
    margin: 0 auto;
-  /* padding-bottom: 30px;*/
    background-repeat: no-repeat;
 }
 
@@ -260,17 +275,12 @@ body {
    width: 300px;
    margin-right: auto;
    margin-left: auto;
-   /*padding: 25px 15px 75px 15px;*/
-   /*float: left;*/
 }
 
 .story_left {
-   width: 300px;
-  /* margin-right: auto;*/
-   margin-left: 15px;
-   /*padding: 25px 20px 75px 20px;*/
-   /*float: left;*/
-   margin-top: 50px;
+   width: 80%;
+   padding-left: 10%;
+   padding-right: 10%;
    background: rgba(255, 255, 255, .6);
 }
 
@@ -293,19 +303,18 @@ body {
 }
 
 .story_right {
-   width: 300px;
-   /*margin-right: auto;
-   margin-left: auto;*/
-   margin-left: 15px;
-  /* padding: 25px 20px 75px 20px;*/
-  /* float: right;*/
-   background: rgba(255, 255, 255, .6);
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  background: rgba(255, 255, 255, .6);
 }
 
 #portfolio_fancybox {
-   width: 100%;
-   margin-left: 10px;
-/*   padding: 25px 0px 75px 0px;*/
+   width: 80%;
+   padding-left: 10%;
+   padding-right: 10%;
+   margin: 0 auto;
 }
 
 a.fancybox {
@@ -323,8 +332,15 @@ a.fancybox {
   margin-left: 50px;
 }
 
+form {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 0 auto;
+}
+
 form h2 {
-  margin-left: 50px;
+  float: left;
 }
 
 input {
@@ -338,7 +354,9 @@ input {
  /* width: 400px;*/
   height: 150px;
   margin-bottom: 15px;
-  width: 250px;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 input[type=text] {
@@ -348,8 +366,9 @@ input[type=text] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
-  margin-left: 50px;
-  width: 250px;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 input[type=name] {
@@ -359,8 +378,9 @@ input[type=name] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
-  margin-left: 50px;
-  width: 250px;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 input[type=email] {
@@ -370,8 +390,9 @@ input[type=email] {
   font-weight: normal;
   font-size: 15px;
   color: #4f5256;
-  margin-left: 50px;
-  width: 250px;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 button {
@@ -385,8 +406,7 @@ button {
   font-size: 18px;
   font-weight: normal;
   color: #404040;
-  margin-left: 50px;
- /* line-height: 15px;*/
+  float: left;
 }
 
 button:hover {
@@ -555,7 +575,7 @@ button:active {
 .footer {
    width: 100%;
    background: #474849;
-   margin-bottom: 150px;
+   margin-bottom: 0;
    margin-right: auto;
    margin-left: auto;
    /*position: relative;*/

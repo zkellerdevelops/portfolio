@@ -49,4 +49,16 @@ $(document).ready(function() {
     return false;
   });
 
+  // $(function() {
+  //   $("#tablet_hero").resizable();
+  // });
+
+  // $(window).load(function(){
+  //   $('#tablet_hero').imagefit();
+  // });
+
+// $(function(){
+//     $('#tablet_hero').imagefit();
+// });
+
 });
