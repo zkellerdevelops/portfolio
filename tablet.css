@@ -1,82 +1,3 @@
-@font-face {
-    font-family: 'RobotoRegular';
-    src: url('fonts/Roboto-Regular-webfont.eot');
-    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
-         url('fonts/Roboto-Regular-webfont.ttf') format('truetype'),
-         url('fonts/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'RobotoBoldCondensed';
-    src: url('fonts/Roboto-BoldCondensed-webfont.eot');
-    src: url('fonts/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Roboto-BoldCondensed-webfont.woff') format('woff'),
-         url('fonts/Roboto-BoldCondensed-webfont.ttf') format('truetype'),
-         url('fonts/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'RobotoBoldCondensedItalic';
-    src: url('fonts/Roboto-BoldCondensedItalic-webfont.eot');
-    src: url('fonts/Roboto-BoldCondensedItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Roboto-BoldCondensedItalic-webfont.woff') format('woff'),
-         url('fonts/Roboto-BoldCondensedItalic-webfont.ttf') format('truetype'),
-         url('fonts/Roboto-BoldCondensedItalic-webfont.svg#RobotoBoldCondensedItalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'RobotoCondensed';
-    src: url('fonts/Roboto-Condensed-webfont.eot');
-    src: url('fonts/Roboto-Condensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Roboto-Condensed-webfont.woff') format('woff'),
-         url('fonts/Roboto-Condensed-webfont.ttf') format('truetype'),
-         url('fonts/Roboto-Condensed-webfont.svg#RobotoCondensed') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'RobotoThin';
-    src: url('fonts/Roboto-Thin-webfont.eot');
-    src: url('fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Roboto-Thin-webfont.woff') format('woff'),
-         url('fonts/Roboto-Thin-webfont.ttf') format('truetype'),
-         url('fonts/Roboto-Thin-webfont.svg#RobotoThin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'RobotoMedium';
-    src: url('fonts/Roboto-Medium-webfont.eot');
-    src: url('fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Roboto-Medium-webfont.woff') format('woff'),
-         url('fonts/Roboto-Medium-webfont.ttf') format('truetype'),
-         url('fonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'wisdom_script_airegular';
-    src: url('fonts/wisdom/wisdom_script-webfont.eot');
-    src: url('fonts/wisdom/wisdom_script-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/wisdom/wisdom_script-webfont.woff') format('woff'),
-         url('fonts/wisdom/wisdom_script-webfont.ttf') format('truetype'),
-         url('fonts/wisdom/wisdom_script-webfont.svg#wisdom_script_airegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 h1 {
 	font-family: "RobotoThin",sans-serif;
   font-style: normal;
@@ -189,28 +110,6 @@ body {
   display: none;
 }
 
-.footernav a {
-   text-align: right;
-   text-decoration: none;
-}
-
-.footernav a {
-   font-family: 'RobotoThin', sans-serif;
-   font-size: 10pt;
-   font-weight: normal;
-   color: #fff;
-   text-decoration: none;
-}
-
-
-.footernav a:link {color:#ffffff;}      /* unvisited link */
-
-.footernav a:visited {color:#ffffff;}  /* visited link */
-
-.footernav a:hover {color:#ff66cc;}  /* mouse over link */
-
-.footernav a:active {color:#ff33cc;}  /* selected link */
-
 #footerlogo {
   width: 400px;
   height: 150px;
@@ -218,12 +117,6 @@ body {
 }
 
 .social {
-   margin: 0 auto;
-   width: 225px;
-   height: 40px;
-   margin-top: -28px;
-   padding-left: 970px;
-   z-index: 8500;
    display: none;
 }
 
@@ -241,12 +134,9 @@ body {
    padding-bottom: 0px;
    border-color: #403c3c;
    position: relative;
-   /*position: fixed;*/
-  /* z-index: 9999;*/
 }
 
 #tablet_hero {
- /* background-image: url("images/hero_tablet.jpg");*/
   display: block;
   width: 90%;
   height: auto;
@@ -266,20 +156,14 @@ body {
 .content {
    width: 100%;
    margin: 0 auto;
-  /* padding-bottom: 30px;*/
    background-repeat: no-repeat;
 }
 
 #portfolio {
    width: 80%;
    margin: 0 auto;
-  /* padding-bottom: 30px;*/
    background-repeat: no-repeat;
 }
-
-/*#contact {
-  background-color: #000;
-}*/
 
 .story {
    width: 600px;
@@ -327,7 +211,6 @@ body {
    padding-left: 10%;
    padding-right: 10%;
    margin: 0 auto;
-/*   padding: 25px 0px 75px 0px;*/
 }
 
 a.fancybox {
@@ -357,14 +240,11 @@ form h2 {
 }
 
 input {
- /* width: 400px;*/
   height: 30px;
-/*  margin-bottom: 15px;*/
   margin: 0 auto;
 }
 
 #message {
- /* width: 400px;*/
   height: 150px;
   margin-bottom: 15px;
   width: 70%;
@@ -467,126 +347,12 @@ button:active {
 */
 
 #slides {
-/*   position: relative;*/
    margin-right: auto;
    margin-left: auto;
    padding-top: 125px;
-   /*float: left;*/
    overflow: hidden;
    display: none;
 }
-
-
-/*
-   Slides container
-   Important:
-   Set the width of your slides container
-   Set to display none, prevents content flash
-*/
-
-.slides_container {
-   width:1120px;
-   /*padding-left: 0px;
-   padding-top: 0px;*/
-   margin-right: auto;
-   margin-left: auto;
-   overflow:hidden;
-/*   position:relative;*/
-   display:none;
-   -moz-box-shadow: 0px 3px 8px -1px #888888;
-   -webkit-box-shadow: 0px 3px 8px -1px #888888;
-   box-shadow: 0px 3px 8px -1px #888888;
-}
-
-
-/*
-   Each slide
-   Important:
-   Set the width of your slides
-   If height not specified height will be set by the slide content
-   Set to display block
-*/
-
-.slides_container a {
-   width:1100px;
-   height:300px;
-   padding: 0px 0px 0px 0px;
-   margin-left: auto;
-   margin-right: auto;
-   display:block;
-   border: 10px solid;
-}
-
-.slides_container a img {
-   display:block;
-   top: 500px;
-   overflow:hidden;
-}
-
-.slideframe {
-   margin-top: 250px;
-   position: relative;
-}
-
-/*
-   Next/prev buttons
-*/
-
-#slides .prev {
-   position: relative;
-   padding-top: 5px;
-   padding-left: 10px;
-   padding-bottom: 20px;
-   display:block;
-   float: left;
-   z-index:101;
-}
-
-#slides .next {
-   padding-top: 5px;
-   padding-right: 10px;
-   padding-bottom: 20px;
-   position: relative;
-   float: right;
-   z-index:101;
-}
-
-#slidenav {
-   padding-right: 25%;
-}
-
-/*
-   Pagination
-*/
-
-.pagination {
-   margin:26px auto 0;
-   width:100px;
-}
-
-.pagination li {
-   float:left;
-   margin:0 1px;
-   list-style:none;
-}
-
-.pagination li a {
-   display:block;
-   width:12px;
-   height:0;
-   padding-top:12px;
-   background-image:url(images/slide/pagination.png);
-   background-position:0 0;
-   float:left;
-   overflow:hidden;
-}
-
-.pagination li.current a {
-   background-position:0 -12px;
-}
-
-/* END SLIDER STYLES */
-
 
 .footer {
    width: 100%;
@@ -594,13 +360,10 @@ button:active {
    margin-bottom: 0;
    margin-right: auto;
    margin-left: auto;
-   /*position: relative;*/
 }
 
 .footcontent {
-   /*margin-right: auto;*/
    margin: 0 auto;
-   /*padding-left: 500px;*/
 }
 
 .clearfooter {

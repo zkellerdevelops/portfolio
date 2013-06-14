@@ -30,7 +30,7 @@ $(document).ready(function() {
  //nav button page animation
   $("#contactbutton").click(function(){
     $('html, body').animate({
-      scrollTop: $("#contact").offset().top
+      scrollTop: $("#contact").offset().top -100
     }, 1500);
     return false;
   });
@@ -48,17 +48,5 @@ $(document).ready(function() {
     }, 1500);
     return false;
   });
-
-  // $(function() {
-  //   $("#tablet_hero").resizable();
-  // });
-
-  // $(window).load(function(){
-  //   $('#tablet_hero').imagefit();
-  // });
-
-// $(function(){
-//     $('#tablet_hero').imagefit();
-// });
 
 });
