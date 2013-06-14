@@ -35,7 +35,7 @@
 }
 
 .fancybox-opened {
-	z-index: 8030;
+	z-index: 9999;
 }
 
 .fancybox-opened .fancybox-skin {
@@ -182,7 +182,7 @@
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	z-index: 9999;
+	z-index: 9950;
 }
 
 .fancybox-lock .fancybox-overlay {
@@ -194,7 +194,7 @@
 
 .fancybox-title {
 	visibility: hidden;
-	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: normal 13px/20px "RobotoThin",sans-serif;
 	position: relative;
 	text-shadow: none;
 	z-index: 8050;

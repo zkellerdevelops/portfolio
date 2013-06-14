@@ -186,28 +186,6 @@ body {
    z-index: 9000;
 }
 
-.footernav {
-   margin: 0 auto;
-   float: right;
-   padding-right: 20px;
-   height: 35px;
-   z-index: 9000;
-}
-
-.footernav a {
-   text-align: right;
-   text-decoration: none;
-}
-
-.footernav a {
-   font-family: 'RobotoThin', sans-serif;
-   font-size: 10pt;
-   font-weight: normal;
-   color: #fff;
-   text-decoration: none;
-}
-
-
 .footernav a:link {color:#ffffff;}      /* unvisited link */
 
 .footernav a:visited {color:#ffffff;}  /* visited link */
@@ -228,8 +206,18 @@ body {
    width: 225px;
    height: 40px;
    margin-top: -28px;
-   padding-left: 970px;
+   padding-left: 930px;
    z-index: 8500;
+}
+
+.footer_social {
+  display: none;
+}
+
+.divider {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 25px;
 }
 
 
@@ -246,7 +234,7 @@ body {
    padding-bottom: 0px;
    border-color: #403c3c;
    position: fixed;
-   z-index: 9999;
+   z-index: 9800;
 }
 
 #tablet_hero {
@@ -269,6 +257,7 @@ body {
 
 .story_left {
    width: 500px;
+   height: 480px;
    margin-right: auto;
    margin-left: auto;
    padding: 25px 20px 75px 20px;
@@ -296,6 +285,7 @@ body {
 
 .story_right {
    width: 500px;
+   height: 480px;
    margin-left: 40px;
    padding: 25px 20px 75px 20px;
    float: left;

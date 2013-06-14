@@ -37,7 +37,7 @@ $(document).ready(function() {
 
   $("#portfoliobutton").click(function(){
     $('html, body').animate({
-      scrollTop: $("#portfolio").offset().top -150
+      scrollTop: $("#portfolio").offset().top -180
     }, 1500);
     return false;
   });
