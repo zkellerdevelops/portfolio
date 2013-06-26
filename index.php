@@ -42,19 +42,19 @@ if (isset($_REQUEST['email']))
 <html lang="en">
 
 	<head>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
 
 		<meta charset="utf-8">
 		<meta name="author" content="Zach Keller">
-		<meta name="description" content="This portfolio site of Zach Keller">
+		<meta name="description" content="The portfolio site of Zach Keller">
 		<meta name="viewport" content="width=device-width">
 
 		<title>Zach | Keller</title>
 
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 900px)" href="stylesheet.css" />
 		<link rel="stylesheet" type="text/css" media="screen and (min-width: 481px) and (max-width: 899px)" href="tablet.css" />
 		<link rel="stylesheet" type="text/css" media="screen and (min-width: 320px) and (max-width: 480px)" href="smartphone.css" />
-		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 		<script src="js/scripts.js"></script>
 
 		<!-- Fancy box Plugin -->
@@ -127,27 +127,30 @@ if (isset($_REQUEST['email']))
 				</div>
 
 				<div class="story_right">
-					<p><h1>You can find me:</h1></p><br>
-						<h2>&bull; Building beautiful websites</h2>
+					<p><h1>My Obsessions:</h1></p><br>
+						<h2>&bull; Building websites</h2>
 						<h2>&bull; Developing engaging user experiences</h2>
-						<h2>&bull; Studying mobile app design</h2>
-						<h2>&bull; Building brands and brand identities</h2>
-						<h2>&bull; Creating stunning book covers</h2>
-						<h2>&bull; Delivering print and web advertising</h2>
-						<h2>&bull; Making trade show displays</h2>
-						<h2>&bull; Obsessing over typography</h2>
-						<h2>&bull; Meeting deadlines</h2>
-						<h2>&bull; Watching unhealthy amounts of football</h2>
+						<h2>&bull; Mobile app design</h2>
+						<h2>&bull; Concepting brands and brand identities</h2>
+						<h2>&bull; Book covers</h2>
+						<h2>&bull; HTML5, CSS3 and Javascript</h2>
+            <h2>&bull; Typography</h2>
+            <h2>&bull; Meeting deadlines</h2>
+						<h2>&bull; Music</h2>
+						<h2>&bull; College football</h2>
 				</div>
-				<img src="images/divider.png" class="divider">
+        <div class="divider">
+				  <img src="images/divider.png">
+        </div>
 			</div>
 
 			<div id="portfolio_fancybox">
 					<p><h1>What I do</h1></p>
         <div class="content" id="portfolio">
-          <a class="fancybox" rel="group" href="images/fancy/travel_big.jpg" title="Travel Stars - website"><img src="images/fancy/travel_thumb.jpg" alt="Travel For the Stars" /></a>
+          <a class="fancybox" rel="group" href="images/fancy/travel_big.jpg" title="Travel Stars - <a href='http://www.travelforthestars.com' target=blank>Launch website</a>"><img src="images/fancy/travel_thumb.jpg" alt="Travel For the Stars" /></a>
+          <a class="fancybox" rel="group" href="images/fancy/deadsets_big.jpg" title="Deadsets - Rails app - <a href='http://capstone-deadsets.herokuapp.com' target=blank>Launch app</a>"><img src="images/fancy/deadsets_thumb.jpg" alt="Deadsets" /></a>
           <a class="fancybox" rel="group" href="images/fancy/nokia_big.jpg" title="Nokia Share 2008 - trade show collateral"><img src="images/fancy/nokia_thumb.jpg" alt="Nokia Share 2008" /></a>
-					<a class="fancybox" rel="group" href="images/fancy/paris_big.jpg" title="The Truth About Paris - book cover"><img src="images/fancy/paris_thumb.jpg" alt="The Trouble With Paris" /></a>
+					<a class="fancybox" rel="group" href="images/fancy/paris_big.jpg" title="The Trouble With Paris - book cover"><img src="images/fancy/paris_thumb.jpg" alt="The Trouble With Paris" /></a>
 					<a class="fancybox" rel="group" href="images/fancy/idc_big.jpg" title="Identity Crisis - agency poster"><img src="images/fancy/idc_thumb.jpg" alt="Identity Crisis" /></a>
 					<a class="fancybox" rel="group" href="images/fancy/invite_big.jpg" title="Foil stamp/embossed wedding invite"><img src="images/fancy/invite_thumb.jpg" alt="Wedding Invite" /></a>
           <a class="fancybox" rel="group" href="images/fancy/sprint_big.jpg" title="BYOV Sprint Races - poster"><img src="images/fancy/sprint_thumb.jpg" alt="BYOV Sprint Races" /></a>
@@ -161,9 +164,11 @@ if (isset($_REQUEST['email']))
           <a class="fancybox" rel="group" href="images/fancy/summer_big.jpg" title="Thomas Nelson Summer 2013 - product catalog"><img src="images/fancy/summer_thumb.jpg" alt="Thomas Nelson Summer 2013" /></a>
 					<a class="fancybox" rel="group" href="images/fancy/jcteen_big.jpg" title="Jesus Calling for Teens - print ad"><img src="images/fancy/jcteen_thumb.jpg" alt="Jesus Calling for Teens" /></a>
           <a class="fancybox" rel="group" href="images/fancy/kjvsb_big.jpg" title="KJV Study Bible - book cover"><img src="images/fancy/kjvsb_thumb.jpg" alt="KJV Study Bible" /></a>
-          <a class="fancybox" rel="group" href="images/fancy/frankfort_big.jpg" title="Frankfort Book Show Banner - large format"><img src="images/fancy/frankfort_thumb.jpg" alt="Frankfort Book Show Banner" /></a>
           <a class="fancybox" rel="group" href="images/fancy/empty_big.jpg" title="Empty Promises - print ad"><img src="images/fancy/empty_thumb.jpg" alt="Empty Promises" /></a>
 				</div>
+        <div class="divider">
+          <img src="images/divider.png">
+        </div>
       </div>
 
       <div class="content" id="contact">

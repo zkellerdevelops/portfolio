@@ -16,6 +16,11 @@ $(document).ready(function() {
   $(".fancybox").fancybox();
  //end Fancybox
 
+  //fancybox text link
+  $('a.gallery').fancybox({
+    'titlePosition' : 'inside'
+  });
+
  //SlideJS script
   $(function(){
     $('#slides').slides({
