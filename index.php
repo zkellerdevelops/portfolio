@@ -147,8 +147,8 @@ if (isset($_REQUEST['email']))
 			<div id="portfolio_fancybox">
 					<p><h1>What I do</h1></p>
         <div class="content" id="portfolio">
-          <a class="fancybox" rel="group" href="images/fancy/travel_big.jpg" title="Travel Stars - <a href='http://www.travelforthestars.com' target=blank>Launch website</a>"><img src="images/fancy/travel_thumb.jpg" alt="Travel For the Stars" /></a>
-          <a class="fancybox" rel="group" href="images/fancy/deadsets_big.jpg" title="Deadsets - Rails app - <a href='http://capstone-deadsets.herokuapp.com' target=blank>Launch app</a>"><img src="images/fancy/deadsets_thumb.jpg" alt="Deadsets" /></a>
+          <a class="fancybox" rel="group" href="images/fancy/travel_big.jpg" title="Travel Stars - <a href='http://www.travelforthestars.com' class='fancylink' target=blank>Launch website</a>"><img src="images/fancy/travel_thumb.jpg" alt="Travel For the Stars" /></a>
+          <a class="fancybox" rel="group" href="images/fancy/deadsets_big.jpg" title="Deadsets - Rails app - <a href='http://capstone-deadsets.herokuapp.com' class='fancylink' target=blank>Launch app</a>"><img src="images/fancy/deadsets_thumb.jpg" alt="Deadsets" /></a>
           <a class="fancybox" rel="group" href="images/fancy/nokia_big.jpg" title="Nokia Share 2008 - trade show collateral"><img src="images/fancy/nokia_thumb.jpg" alt="Nokia Share 2008" /></a>
 					<a class="fancybox" rel="group" href="images/fancy/paris_big.jpg" title="The Trouble With Paris - book cover"><img src="images/fancy/paris_thumb.jpg" alt="The Trouble With Paris" /></a>
 					<a class="fancybox" rel="group" href="images/fancy/idc_big.jpg" title="Identity Crisis - agency poster"><img src="images/fancy/idc_thumb.jpg" alt="Identity Crisis" /></a>
